@@ -17,26 +17,28 @@ class CatViewHolder(
 ) : RecyclerView.ViewHolder(containerView) {
 
     private val catBiographyView: TextView by lazy {
-        containerView.findViewById(R.id.cat_biography)
+        containerView.findViewById<TextView>(R.id.cat_biography)
     }
     private val catBreedView: TextView by lazy {
-        containerView.findViewById(R.id.cat_breed)
+        containerView.findViewById<TextView>(R.id.cat_breed)
     }
     private val catGenderView: TextView by lazy {
-        containerView.findViewById(R.id.cat_gender)
+        containerView.findViewById<TextView>(R.id.cat_gender)
     }
     private val catNameView: TextView by lazy {
-        containerView.findViewById(R.id.cat_name)
+        containerView.findViewById<TextView>(R.id.cat_name)
     }
     private val catPhotoView: ImageView by lazy {
-        containerView.findViewById(R.id.cat_photo)
+        containerView.findViewById<ImageView>(R.id.cat_photo)
     }
 
     fun bindData(cat: CatModel) {
+        // Klik item → panggil callback di adapter
         containerView.setOnClickListener {
             onClickListener.onItemClick(cat)
         }
 
+        // Tampilkan data kucing
         imageLoader.loadImage(cat.imageUrl, catPhotoView)
         catNameView.text = cat.name
         catBreedView.text = when (cat.breed) {
