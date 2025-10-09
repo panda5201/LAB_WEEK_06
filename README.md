@@ -1,6 +1,3 @@
-Commit 2
-<img width="339" height="738" alt="image" src="https://github.com/user-attachments/assets/38da682b-164a-4aff-9631-3574dcb155fd" />
-Commit 3
-<img width="341" height="702" alt="image" src="https://github.com/user-attachments/assets/da7f8ede-5755-49a3-96e1-525f44933dd6" />
-Commit 4
-<img width="364" height="778" alt="image" src="https://github.com/user-attachments/assets/d5dffda9-cba0-4b28-9bd0-ba858873ae70" />
+| Commit 2 | Commit 3 | Commit 4 |
+|:---------:|:---------:|:---------:|
+| <img src="https://github.com/user-attachments/assets/38da682b-164a-4aff-9631-3574dcb155fd" width="230"/> | <img src="https://github.com/user-attachments/assets/da7f8ede-5755-49a3-96e1-525f44933dd6" width="230"/> | <img src="https://github.com/user-attachments/assets/a81e415b-e051-4778-978e-e1cf7e781997" width="230"/> |
