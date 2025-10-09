@@ -80,9 +80,59 @@ class MainActivity : AppCompatActivity() {
                     "Curious George",
                     "Award winning investigator",
                     "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.ExoticShorthair,
+                    "Shadow",
+                    "Always hides in the dark corner but loves treats.",
+                    "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.BalineseJavanese,
+                    "Luna",
+                    "Graceful and loves to sleep near sunlight.",
+                    "https://cdn2.thecatapi.com/images/9r9.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.AmericanCurl,
+                    "Leo",
+                    "The king of the house, but afraid of cucumbers.",
+                    "https://cdn2.thecatapi.com/images/c8h.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.ExoticShorthair,
+                    "Cleo",
+                    "Always curious about new guests.",
+                    "https://cdn2.thecatapi.com/images/2oo.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.AmericanCurl,
+                    "Tom",
+                    "Lazy but very photogenic.",
+                    "https://cdn2.thecatapi.com/images/bpc.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.BalineseJavanese,
+                    "Mochi",
+                    "Loves to chase laser lights.",
+                    "https://cdn2.thecatapi.com/images/8v5.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.ExoticShorthair,
+                    "Nala",
+                    "Friendly and loves belly rubs.",
+                    "https://cdn2.thecatapi.com/images/dcl.jpg"
                 )
             )
         )
+
     }
 
     // This will create a pop up dialog when one of the items from the recycler view is clicked.
